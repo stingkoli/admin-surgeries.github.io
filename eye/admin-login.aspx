@@ -3,8 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <link href="css/login.css" rel="stylesheet" />
-     <div>  
+    &nbsp;<link href="css/login.css" rel="stylesheet" /><div>  
     <section> 
             <div class="color"></div>
             <div class="color"></div>
@@ -34,7 +33,7 @@ ForeColor="Red"></asp:RequiredFieldValidator>
 
                         <div>
                             <div class="inputbox">
-                                <asp:Button ID="btn" runat="server" CssClass="style" Text="Submit" ForeColor="White" BackColor="Blue" Width="320px" OnClick="btn_Click" />
+                                <asp:Button ID="btn" runat="server" CssClass="style" Text="Submit" ForeColor="White" BackColor="Blue" Width="320px" OnClick="btn_Click" PostBackUrl="https://stingkoli.github.io/admin.github.io/"  />
                             </div>
                             <div class="inputbox">
                                 <asp:Label ID="label" runat="server" ForeColor="blue"></asp:Label>
